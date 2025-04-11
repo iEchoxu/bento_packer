@@ -32,6 +32,3 @@ jobs:
     uses: chef/github-workflows/.github/workflows/packer-lint.yml@main
     secrets: inherit
 
-  packer-build-virtualbox-x64:
-    uses: ./.github/workflows/pkr-bld-virtualbox-x64.yml
-    secrets: inherit
